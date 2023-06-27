@@ -1,0 +1,10 @@
+It's Nothing New to create a js server actully it's the same , as normal 
+
+-> inside the folder create a file name server.js 
+
+-> now create a npm package by using npm init rest follow the express js documentation pinned below
+
+
+It's for express JS Documentation
+https://expressjs.com/en/starter/hello-world.html
+
