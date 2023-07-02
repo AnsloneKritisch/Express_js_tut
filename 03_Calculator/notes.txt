@@ -1,0 +1,9 @@
+ to get data from the form we need body paser 
+
+Body Parser -> https://www.npmjs.com/package/body-parser 
+
+ install npm install body-parser
+ and data from body and add it 
+
+const bodyParser = require('body-parser')
+This is how we can add and include the body 

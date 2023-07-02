@@ -1,0 +1,80 @@
+we can create a lots of routes and use them in our localhost 
+
+localhost is where we host or server and when  we add routeas the we have to adada 
+route as given in the the place and like -> localhost:3000/nameoftheroute
+
+
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+
+It means we dont have to restart and the server again again , it wil restart the server for us .
+
+Problems with Installing nodemon
+
+
+================================================================================================
+
+
+So when this command doesn't work:
+
+npm install -g nodemon
+
+
+
+I recommend to use this one instead:
+
+sudo npm install -g nodemon
+
+
+It will then ask you to enter the password you use to log on to your computer.
+
+So, if you have any problems with this step.
+
+1. Make sure you are logged in to your computer on an account with admin privileges.
+
+2. Use sudo in front of the installation command.
+
+3. Type your password when prompted. Note your password typing will not show. Just hit enter once you've typed it all.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Problems with Running nodemon
+
+If after installing, when you try to use nodemon, you get errors like the ones below:
+
+/home/user/projects/mongodb-todo/node_modules/nodemon/lib/monitor/run.js:336
+spawn('kill', ['-s', sig, child.pid].concat(kids.map(p => p.PID)))
+^
+TypeError: Cannot read property 'map' of undefined
+at /home/user/projects/mongodb-todo/node_modules/nodemon/lib/monitor/run.js:336:58
+at /home/user/projects/mongodb-todo/node_modules/pstree.remy/lib/tree.js:53:11
+at ChildProcess.onClose (/home/user/projects/mongodb-todo/node_modules/pstree.remy/lib/tree.js:80:9)
+at ChildProcess.emit (events.js:182:13)
+at maybeClose (internal/child_process.js:962:16)
+at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! mongodb-todo@1.0.0 start: nodemon
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the mongodb-todo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm ERR! A complete log of this run can be found in:
+npm ERR! /home/user/.npm/_logs/2018-11-22T12_10_04_952Z-debug.log
+
+
+You can get rid of these by entering the command:
+_______________________________
+
+npm i pstree.remy@1.1.0 -D
+______________________________
+
+
+
+
+=====================================================================================
+After the installation if there is no problem then you can
+Run the following code :-
+
+nodemon server.js 

@@ -1,0 +1,18 @@
+to start with node we need to initialize NODE
+
+-> npm init
+
+
+It's for express JS Documentation
+https://expressjs.com/en/starter/hello-world.html
+$ npm install express
+const express = require('express')
+
+
+
+npm install -g nodemon
+nodemon server.js 
+
+
+body-parser
+npm install body-parser

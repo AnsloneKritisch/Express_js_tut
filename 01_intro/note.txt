@@ -4,7 +4,9 @@ It's Nothing New to create a js server actully it's the same , as normal
 
 -> now create a npm package by using npm init rest follow the express js documentation pinned below
 
+-> npm install express ->  to insatall expresss js
 
+ 
 It's for express JS Documentation
 https://expressjs.com/en/starter/hello-world.html
 
